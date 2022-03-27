@@ -1,9 +1,10 @@
-package _011_classKavrami;
+package _012_modifiers;
 
 public class Canli {
-	protected int yas;
+	int yas = 12;
 
 	public int getYas() {
+
 		System.out.println("Canli classındaki getYas() calisti");
 		return yas;
 	}
